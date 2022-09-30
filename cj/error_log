@@ -1,0 +1,29 @@
+[31-Mar-2022 22:13:25 UTC] PHP Fatal error:  Uncaught Gpf_Exception: Curl error: Could not resolve host: URL_TO_PAP; URL_TO_PAP/scripts/track.php?visitorId=&accountId=ea5186c0&url=S_llabook.shop%2Fcj%2Findex.php&referrer=&tracking=1&getParams=&ip=179.6.42.30&useragent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F99.0.4844.84+Safari%2F537.36+-+es-419%2Ces%3Bq%3D0.9&sale=%5B%7B%22ac%22%3A%22%22%2C%22t%22%3A%22100%22%2C%22f%22%3A%22%22%2C%22o%22%3A%22oid%22%2C%22p%22%3A%22%22%2C%22d1%22%3A%22%22%2C%22d2%22%3A%22%22%2C%22d3%22%3A%22%22%2C%22d4%22%3A%22%22%2C%22d5%22%3A%22%22%2C%22a%22%3A%22%22%2C%22c%22%3A%22%22%2C%22b%22%3A%22%22%2C%22ch%22%3A%22%22%2C%22cc%22%3A%22%22%2C%22ccfc%22%3A%22%22%2C%22s%22%3A%22%22%2C%22cr%22%3A%22%22%2C%22cp%22%3A%22%22%2C%22ts%22%3A%22%22%2C%22dndc%22%3A%22Y%22%2C%22chc%22%3A%22%22%7D%5D in /home/bellecxo/llabook.shop/cj/PapApi.class.php:2243
+Stack trace:
+#0 /home/bellecxo/llabook.shop/cj/PapApi.class.php(2110): Gpf_Net_Http_ClientBase->executeWithCurl(Object(Gpf_N in /home/bellecxo/llabook.shop/cj/PapApi.class.php on line 2243
+[31-Mar-2022 22:16:32 UTC] PHP Notice:  Undefined variable: saleTracker in /home/bellecxo/llabook.shop/cj/index.php on line 6
+[31-Mar-2022 22:16:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAccountId() on null in /home/bellecxo/llabook.shop/cj/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bellecxo/llabook.shop/cj/index.php on line 6
+[31-Mar-2022 22:17:19 UTC] PHP Notice:  Undefined variable: saleTracker in /home/bellecxo/llabook.shop/cj/index.php on line 6
+[31-Mar-2022 22:17:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAccountId() on null in /home/bellecxo/llabook.shop/cj/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/bellecxo/llabook.shop/cj/index.php on line 6
+[31-Mar-2022 22:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bellecxo/llabook.shop/cj/index.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/bellecxo/llabook.shop/cj/index.php on line 113
+[31-Mar-2022 22:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bellecxo/llabook.shop/cj/index.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/bellecxo/llabook.shop/cj/index.php on line 113
+[31-Mar-2022 22:35:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bellecxo/llabook.shop/cj/index.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/bellecxo/llabook.shop/cj/index.php on line 113
+[31-Mar-2022 22:35:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/bellecxo/llabook.shop/cj/index.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/bellecxo/llabook.shop/cj/index.php on line 113

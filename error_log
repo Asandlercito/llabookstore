@@ -1,0 +1,18 @@
+[25-May-2022 16:24:06 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/bellecxo/llabook.shop/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/bellecxo/llabook.shop/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#1 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#2 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#3 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->creat in /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[25-May-2022 16:24:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/bellecxo/llabook.shop/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/bellecxo/llabook.shop/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#1 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#2 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#3 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->creat in /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[25-May-2022 16:24:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Can't connect to MySQL server on '127.0.0.1' (115) in /home/bellecxo/llabook.shop/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:40
+Stack trace:
+#0 /home/bellecxo/llabook.shop/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(40): PDO->__construct('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#1 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#2 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'bellecxo_llaboo...', 'JOcare526341@@', Array)
+#3 /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->creat in /home/bellecxo/llabook.shop/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703

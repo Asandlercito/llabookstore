@@ -1,0 +1,57 @@
+{
+  "name": "@lyracom/embedded-form-glue",
+  "version": "1.0.0",
+  "description": "Lyra embedded form glue",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "babel app --out-dir lib && prettier --write \"lib/**/*.js\"",
+    "lint": "eslint --ext .js app && eslint --ext .js lib",
+    "lintfix": "eslint --fix --ext .js app && eslint --fix --ext .js lib",
+    "prettier": "prettier --write \"app/**/*.js\"",
+    "e2e-server": "http-server ./",
+    "test-ci": "testcafe chrome:headless tests/e2e/**/* -r xunit:/tmp/test-results/testcafe/results.xml",
+    "test": "testcafe chrome tests/e2e/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyra/embedded-form-glue.git"
+  },
+  "keywords": [
+    "javascript",
+    "embedded",
+    "form",
+    "lyra",
+    "glue"
+  ],
+  "author": "Lyra Network",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyra/embedded-form-glue/issues"
+  },
+  "homepage": "https://github.com/lyra/embedded-form-glue#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "http-server": "^14.0.0",
+    "prettier": "^2.5.0",
+    "testcafe": "^1.17.1",
+    "testcafe-reporter-xunit": "^2.1.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.8"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

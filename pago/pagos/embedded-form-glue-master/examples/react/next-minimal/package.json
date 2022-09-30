@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@lyracom/embedded-form-glue": "^1.0.0",
+    "axios": "^0.21.4",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
